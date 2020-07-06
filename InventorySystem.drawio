@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T17:41:52.443Z" agent="5.0 (Windows)" etag="1by9gv2-7cwNd5c5W8R-" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T18:19:28.516Z" agent="5.0 (Windows)" etag="NZcPmfFCnWZ6rMjTT72n" version="13.3.9" type="github">
   <diagram id="n1csDCfi8EnM-YTXpeLg" name="Page-1">
     <mxGraphModel dx="2647" dy="2227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -100,6 +100,9 @@
         <mxCell id="T52fhXwFiEbYfdr09F9V-23" value="Update Item Slot From Callback" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="50" y="-110" width="340" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="T52fhXwFiEbYfdr09F9V-24" target="T52fhXwFiEbYfdr09F9V-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-24" value="Assign Item to the slot using Item Database" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="50" y="-80" width="340" height="30" as="geometry" />
         </mxCell>
@@ -139,52 +142,52 @@
           <mxGeometry x="640" y="40" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-410" width="340" height="220" as="geometry" />
+          <mxGeometry x="510" y="-1000" width="340" height="615" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-34" value="ItemDatabase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-410" width="340" height="30" as="geometry" />
+          <mxGeometry x="510" y="-1000" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-380" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-35" value="ID" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-970" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-350" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-36" value="Name" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-940" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-320" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-37" value="Icon" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-910" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-290" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-38" value="Description" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-880" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-260" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-39" value="Quality" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-850" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="-230" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-40" value="ItemType" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-790" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-770" width="340" height="220" as="geometry" />
+          <mxGeometry x="1170" y="-870" width="340" height="220" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-42" value="ItemScriptRepository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-770" width="340" height="30" as="geometry" />
+          <mxGeometry x="1170" y="-870" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-740" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-43" value="List &amp;lt; BaseItemScript &amp;gt; RepositoryItems" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-840" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-710" width="340" height="30" as="geometry" />
+          <mxGeometry x="1170" y="-810" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-680" width="340" height="30" as="geometry" />
+          <mxGeometry x="1170" y="-780" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-650" width="340" height="30" as="geometry" />
+          <mxGeometry x="1170" y="-750" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-620" width="340" height="30" as="geometry" />
+          <mxGeometry x="1170" y="-720" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-590" width="340" height="30" as="geometry" />
+          <mxGeometry x="1170" y="-690" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="40" width="340" height="220" as="geometry" />
@@ -282,6 +285,48 @@
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-77" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="230" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-97" value="&lt;div&gt;Assign Listener for clicks Using the repository ID to search the Script repo&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-140" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-99" value="EquipType" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-820" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-100" value="Block/Block Cost" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-645" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-102" value="SubType" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-730" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-103" value="Damage" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-705" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-104" value="AttackSpeed" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-675" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-105" value="Durability" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-525" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-106" value="Armor" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-615" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-107" value="Type" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-760" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-108" value="Strength" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-555" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-109" value="Stamina" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-585" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-110" value="Value" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-495" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-111" value="RequiredLevel" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-465" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-112" value="RepositoryID" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-435" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
