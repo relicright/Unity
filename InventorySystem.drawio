@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T16:22:39.266Z" agent="5.0 (Windows)" etag="1enAlOiKNL1QZC0stEzR" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T16:24:07.538Z" agent="5.0 (Windows)" etag="CpQgCPuL1e1EWc_exckR" version="13.3.9" type="github">
   <diagram id="n1csDCfi8EnM-YTXpeLg" name="Page-1">
     <mxGraphModel dx="1480" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
         <mxCell id="T52fhXwFiEbYfdr09F9V-31" value="bool RequestUseConsumeable( mobile, BaseItem3D, index)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="560" y="390" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-32" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="T52fhXwFiEbYfdr09F9V-32" value="bool RequestAddIventoryItem ( mobile, BaseItem3D, amt, obj )" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="560" y="420" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
