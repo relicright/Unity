@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T16:26:16.690Z" agent="5.0 (Windows)" etag="DaE8qWLzdr2DpsUzLaYS" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T16:32:11.026Z" agent="5.0 (Windows)" etag="6_D10LsDN2Q7OiH4qoEt" version="13.3.9" type="github">
   <diagram id="n1csDCfi8EnM-YTXpeLg" name="Page-1">
-    <mxGraphModel dx="1480" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry x="1040" y="230" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="340" height="220" as="geometry" />
+          <mxGeometry x="50" y="50" width="340" height="490" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-10" value="Player Inventory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="50" width="340" height="30" as="geometry" />
@@ -49,32 +49,32 @@
         <mxCell id="T52fhXwFiEbYfdr09F9V-15" value="Saving - InventoryState()" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="200" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-16" value="CallBacks" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="T52fhXwFiEbYfdr09F9V-16" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="230" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="400" width="340" height="220" as="geometry" />
+          <mxGeometry x="40" y="680" width="340" height="220" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-18" value="InventoryUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="400" width="340" height="30" as="geometry" />
+          <mxGeometry x="40" y="680" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="430" width="340" height="30" as="geometry" />
+          <mxGeometry x="40" y="710" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="460" width="340" height="30" as="geometry" />
+          <mxGeometry x="40" y="740" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="490" width="340" height="30" as="geometry" />
+          <mxGeometry x="40" y="770" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="520" width="340" height="30" as="geometry" />
+          <mxGeometry x="40" y="800" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="550" width="340" height="30" as="geometry" />
+          <mxGeometry x="40" y="830" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="580" width="340" height="30" as="geometry" />
+          <mxGeometry x="40" y="860" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="240" width="400" height="370" as="geometry" />
@@ -186,6 +186,12 @@
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-61" value="SetGameManager( GameManagerScript)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="560" y="570" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-62" value="CallBacks" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-63" value="OnInventoryItemChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="290" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
