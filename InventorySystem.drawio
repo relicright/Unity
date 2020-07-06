@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T17:19:46.083Z" agent="5.0 (Windows)" etag="trLPhHbjqa4M_dogi6nM" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T17:25:54.840Z" agent="5.0 (Windows)" etag="qWE6CZ911qtOL6SY1KZZ" version="13.3.9" type="github">
   <diagram id="n1csDCfi8EnM-YTXpeLg" name="Page-1">
     <mxGraphModel dx="2330" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -47,10 +47,10 @@
           <mxGeometry x="50" y="80" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-12" value="DropItem(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="260" width="340" height="30" as="geometry" />
+          <mxGeometry x="50" y="170" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-13" value="UseItem(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="140" width="340" height="30" as="geometry" />
+          <mxGeometry x="50" y="200" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-14" value="EquipItem(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="110" width="340" height="30" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry x="50" y="310" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-16" value="EquipWeapon(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="340" height="30" as="geometry" />
+          <mxGeometry x="50" y="140" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="-260" width="340" height="220" as="geometry" />
@@ -86,10 +86,10 @@
           <mxGeometry x="50" y="-80" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="400" height="370" as="geometry" />
+          <mxGeometry x="640" y="-10" width="400" height="420" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-26" value="Bolt Inventory Manager Script" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="400" height="30" as="geometry" />
+          <mxGeometry x="640" y="-10" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T52fhXwFiEbYfdr09F9V-27">
           <mxGeometry relative="1" as="geometry">
@@ -105,17 +105,29 @@
         <mxCell id="T52fhXwFiEbYfdr09F9V-28" value="bool RequestEquipItem( mobile, BaseItem3D, index)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="640" y="100" width="400" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T52fhXwFiEbYfdr09F9V-29" target="T52fhXwFiEbYfdr09F9V-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-29" value="bool RequestEquipWeapon( mobile, BaseItem3D, index)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="640" y="130" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T52fhXwFiEbYfdr09F9V-30" target="T52fhXwFiEbYfdr09F9V-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-30" value="bool RequestDropItem( mobile, BaseItem3D, index)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="640" y="160" width="400" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T52fhXwFiEbYfdr09F9V-31" target="T52fhXwFiEbYfdr09F9V-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-31" value="bool RequestUseConsumeable( mobile, BaseItem3D, index)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="640" y="220" width="400" height="30" as="geometry" />
+          <mxGeometry x="640" y="190" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T52fhXwFiEbYfdr09F9V-32" target="T52fhXwFiEbYfdr09F9V-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-32" value="bool RequestAddIventoryItem ( mobile, BaseItem3D, amt, obj )" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="640" y="190" width="400" height="30" as="geometry" />
+          <mxGeometry x="640" y="40" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="760" width="340" height="220" as="geometry" />
@@ -251,7 +263,7 @@
         <mxCell id="T52fhXwFiEbYfdr09F9V-75" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="820" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-77" value="EquipWeapon(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="T52fhXwFiEbYfdr09F9V-77" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="230" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
