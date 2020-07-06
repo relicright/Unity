@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T16:48:18.042Z" agent="5.0 (Windows)" etag="TJL1v5mJUYibjWAjPBBm" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T16:56:14.546Z" agent="5.0 (Windows)" etag="lioKpCLb90Et4brWexHU" version="13.3.9" type="github">
   <diagram id="n1csDCfi8EnM-YTXpeLg" name="Page-1">
     <mxGraphModel dx="1480" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
         <mxCell id="T52fhXwFiEbYfdr09F9V-61" value="SetGameManager( GameManagerScript)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="640" y="570" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-62" value="CallBacks" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="T52fhXwFiEbYfdr09F9V-62" value="CallBacks" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="50" y="350" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-63" value="OnInventoryItemChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
