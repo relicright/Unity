@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T17:26:55.590Z" agent="5.0 (Windows)" etag="ZWHVfjnBbqX4ZH-QUVTo" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T17:28:17.746Z" agent="5.0 (Windows)" etag="1i5cE1luJ6Mb0kvgD8Wr" version="13.3.9" type="github">
   <diagram id="n1csDCfi8EnM-YTXpeLg" name="Page-1">
     <mxGraphModel dx="2647" dy="2227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="T52fhXwFiEbYfdr09F9V-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="500" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="T52fhXwFiEbYfdr09F9V-2" target="T52fhXwFiEbYfdr09F9V-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-2" value="Bolt Inventory States" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="500" width="340" height="30" as="geometry" />
@@ -58,8 +61,8 @@
         <mxCell id="T52fhXwFiEbYfdr09F9V-14" value="EquipItem(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="110" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-15" value="Saving - InventoryState()" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="310" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-15" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-16" value="EquipWeapon(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="140" width="340" height="30" as="geometry" />
@@ -87,6 +90,9 @@
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-24" value="Assign Item to the slot using Item Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="-80" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="T52fhXwFiEbYfdr09F9V-25" target="T52fhXwFiEbYfdr09F9V-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="-10" width="400" height="420" as="geometry" />
@@ -245,7 +251,7 @@
         <mxCell id="T52fhXwFiEbYfdr09F9V-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="640" width="340" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-69" value="InventoryState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="T52fhXwFiEbYfdr09F9V-69" value="InventoryState ( SAVING )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="640" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-70" value="List&amp;lt; int &amp;gt; InventoryItems;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
