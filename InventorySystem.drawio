@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T16:32:11.026Z" agent="5.0 (Windows)" etag="6_D10LsDN2Q7OiH4qoEt" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T16:35:24.415Z" agent="5.0 (Windows)" etag="-cuUJSyoYTGCTZJjp-bj" version="13.3.9" type="github">
   <diagram id="n1csDCfi8EnM-YTXpeLg" name="Page-1">
     <mxGraphModel dx="1258" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -192,6 +192,18 @@
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-63" value="OnInventoryItemChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="290" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-64" value="OnInventoryItemCountChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-65" value="OnInventoryEquipmentChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-66" value="OnInventoryWeaponChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-67" value="OnActiveWeaponChange ( )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
