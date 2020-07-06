@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-06T16:40:03.963Z" agent="5.0 (Windows)" etag="CavG_6H6EgQ0iTjI7ph4" version="13.3.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-06T16:48:18.042Z" agent="5.0 (Windows)" etag="TJL1v5mJUYibjWAjPBBm" version="13.3.9" type="github">
   <diagram id="n1csDCfi8EnM-YTXpeLg" name="Page-1">
     <mxGraphModel dx="1480" dy="2028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -50,10 +50,10 @@
           <mxGeometry x="50" y="170" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-15" value="Saving - InventoryState()" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="340" height="30" as="geometry" />
+          <mxGeometry x="50" y="310" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-16" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="230" width="340" height="30" as="geometry" />
+        <mxCell id="T52fhXwFiEbYfdr09F9V-16" value="EquipWeapon(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="680" width="340" height="220" as="geometry" />
@@ -191,22 +191,22 @@
           <mxGeometry x="640" y="570" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-62" value="CallBacks" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="260" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-63" value="OnInventoryItemChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="290" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-64" value="OnInventoryItemCountChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="320" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-65" value="OnInventoryEquipmentChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="350" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-66" value="OnInventoryWeaponChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="T52fhXwFiEbYfdr09F9V-63" value="OnInventoryItemChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="380" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T52fhXwFiEbYfdr09F9V-67" value="OnActiveWeaponChange ( )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="T52fhXwFiEbYfdr09F9V-64" value="OnInventoryItemCountChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="410" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-65" value="OnInventoryEquipmentChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-66" value="OnInventoryWeaponChange( Bolt.Istate, path, indicies )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="470" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-67" value="OnActiveWeaponChange ( )" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="-220" width="340" height="220" as="geometry" />
@@ -231,6 +231,9 @@
         </mxCell>
         <mxCell id="T52fhXwFiEbYfdr09F9V-75" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="50" y="-40" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T52fhXwFiEbYfdr09F9V-77" value="EquipWeapon(" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
